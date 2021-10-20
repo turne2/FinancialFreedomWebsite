@@ -20,7 +20,8 @@ div.top-navigation {
   }
 
   body {
-    background-color: rgb(214, 214, 214);
+    background-color: #BBCDC5; 
+
     font-family: georgia;
 
   }
@@ -28,12 +29,14 @@ div.top-navigation {
 
   div.middle {
 
-    background-color:rgb(245, 245, 245);
+    background-color: #BBCDC5; 
+
 
   }
 
   h1 {
     text-align: center;
+    color: white;
   }
 
 
@@ -54,4 +57,8 @@ div.top-navigation {
     width: 100%;
      text-align: center;    
      background-color: #BBCDC5;
+   }
+
+   p {
+    background-color: #BBCDC5; 
    }
