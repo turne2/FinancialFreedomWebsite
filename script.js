@@ -21,4 +21,12 @@ document.getElementById('rentresults').innerHTML = ("You can afford $") + amount
 
 }
   
+function calcSavings() {
+    var goalSavings = parseFloat(document.getElementById('goal_savings').value);
     
+   var monthsUntil = parseFloat(document.getElementById('months_until').value);
+     
+   var calculate = Math.round( goalSavings / monthsUntil * 100) / 100;
+    
+   document.getElementById('results').innerHTML = ("You need to save $") + calculate + (" a month.");   
+}

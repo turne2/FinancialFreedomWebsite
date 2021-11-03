@@ -21,10 +21,34 @@
 
     
 </header>
-<body>
+<body>    
+    <h1>Savings Calculator</h1>
     <div class ="coming-soon">
-    <img src="coming soon 2.png"> 
-    </div>
+
+        <div id="fulldiv">
+            <p> Enter the following information to calculate your savings schedule.</p>
+            <label for="goal_savings">Goal amount to save:</label>
+            <input type="text" name="goalsavings" id="goal_savings" value ="0.00"/>
+                               
+            <label for="months_until">How many months until big purchase</label>
+            <input type="text" name="monthsUntil" id="months_until" value= "0.0"/>  
+               
+             
+             <br/><br/>
+            <button value="calculate" onclick="calcSavings()">Calculate</button>
+            <p id="results"></p>
+           </div>
+        
+ 
+ 
+</div>
+</div>
 
 </body>
+<footer>
+    Author: Elisa Turner 
+  
+  
+  
+  </footer>
 </html>
